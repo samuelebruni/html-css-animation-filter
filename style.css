@@ -84,10 +84,51 @@
     width: 500px;
 }
 
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+
+
+
+.ex-7-img{
+    filter: grayscale(80%);
+}
+
+.ex-7-img:hover{
+    filter: grayscale(0);
+    transition: filter 4s;
+}
+
+.ex-8-img{
+    transition: border-radius 1s, filter 3s;
+}
+
+.ex-8-img:hover{
+    border-radius: 20%;
+    filter: saturate(100%);
+    filter: sepia(60%);
+}
+
+
+
+
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: filter 2s, border-radius 1s, width 3s;
 }
+
+.ex-9-img:hover{
+    border-radius: 10%;
+    filter: brightness(100%);
+    filter: grayscale(80%);
+    width: 500px;
+}
+
+
+
+
 .ex-10-icon {
     font-size: 60px;
 }
