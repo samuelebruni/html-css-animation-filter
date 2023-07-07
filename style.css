@@ -131,10 +131,44 @@
 
 .ex-10-icon {
     font-size: 60px;
+    animation: loop 1s linear infinite;
 }
+
+@keyframes loop{
+    0%{
+        transform: rotate(1turn);
+    }
+}
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+@keyframes loopreverse{
+    0%{
+        transform: rotate(0);
+    }
+    90%{
+        transform: rotate(0.80turn);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+.ex-11-icon:hover{
+    animation: loopreverse 3s linear infinite;
+}
+
+
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
