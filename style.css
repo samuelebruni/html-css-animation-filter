@@ -70,6 +70,15 @@
     margin: 1px;
 }
 
+.ex-5-square:active{
+    height: 30px;
+    width: 30px;
+    margin:3rem;
+}
+
+
+
+
 
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
